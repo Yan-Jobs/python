@@ -1,1 +1,1 @@
-# Kullanmayı bilmiyosan hiç girme gardaş
+# bilmiyosan kullanmayacan
